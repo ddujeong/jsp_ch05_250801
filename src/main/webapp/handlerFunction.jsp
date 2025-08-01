@@ -21,7 +21,7 @@ function checkFun() {
 <body>
 	<h2>추천 도서 평점</h2>
 	<hr>
-	<form action="#" name="gradeForm">
+	<form action="#" name="gradeForm" >
 		추천도서 : <input type="text" name="book" size="30px" autofocus="autofocus"><br><br>
 		평점 : 
 		<hr>
