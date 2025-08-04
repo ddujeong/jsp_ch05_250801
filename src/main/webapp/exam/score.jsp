@@ -11,7 +11,7 @@ function checkFun() {
 		alert("세 과목의 점수를 모두 입력해주세요.");
 	return false;
 	} else{
-		alert("국어 : " +document.score.kor.value + "영어 : " + document.score.math.value + "수학 : " +document.score.math.value)
+		alert("국어 : " +document.score.kor.value + "영어 : " + document.score.eng.value + "수학 : " +document.score.math.value)
 	} 
 }
 

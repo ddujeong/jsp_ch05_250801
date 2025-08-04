@@ -8,11 +8,14 @@
 </head>
 <body>
 	<%
+	
+		request.setCharacterEncoding("utf-8");
+	
 		int kor = Integer.parseInt(request.getParameter("kor"));
 		int eng = Integer.parseInt(request.getParameter("eng"));
 		int math = Integer.parseInt(request.getParameter("math"));
 		int sum = kor + eng + math;
-		double avg = sum/3;
+		double avg = sum/3.0;
 	%>
 	<%="평균점수는 : " + avg %>
 </body>

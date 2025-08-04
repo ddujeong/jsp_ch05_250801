@@ -9,11 +9,9 @@
 function checkFun() {
 	if (document.loginForm.id.value == "" || document.loginForm.pw.value == ""){
 		alert("아이디 비밀번호는 필수 입력사항입니다.")
+		//document.loginForm.id.focus();//해당폼으로 커서 이동
 		return false;
-	}else{
-		
 	}
-	
 }
 
 </script>
